@@ -18,9 +18,9 @@ Laravel Word brings the power of PHPOffice's PHPWord to Laravel 4 and 5 with a t
 ---
 
 ```php
-Word::create('Laravel Excel', function($word) {
+Word::create('Laravel Word', function($word) {
 
-    $excel->sheet('Excel sheet', function($sheet) {
+    $excel->section('Word section', function($section) {
 
         $sheet->setOrientation('landscape');
 
