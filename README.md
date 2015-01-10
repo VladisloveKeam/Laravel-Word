@@ -1,8 +1,8 @@
-## Laravel Excel v1.2.2
+## Laravel Word v1.0.0 - in progres (refactoring from EXCEL to WORD)  
 
-[<img src="http://www.maatwebsite.nl/img/excel_banner.jpg"/>](http://www.maatwebsite.nl/laravel-excel/docs)
+[<img src="http://www.maveius.pl/img/word_banner.png"/>](http://www.maveius.pl/laravel-word/docs)
 
-Laravel Excel brings the power of PHPOffice's PHPExcel to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: importing Excel and CSV to collections, exporting models, array's and views to Excel, importing batches of files and importing a file by a config file.
+Laravel Word brings the power of PHPOffice's PHPWord to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: importing Word and RTF to collections, exporting models, array's and views to Word, importing batches of files and importing a file by a config file.
 
 - Import into Laravel **Collections**
 - Export **Blade views** to Excel and CSV with optional CSS styling
@@ -18,7 +18,7 @@ Laravel Excel brings the power of PHPOffice's PHPExcel to Laravel 4 and 5 with a
 ---
 
 ```php
-Excel::create('Laravel Excel', function($excel) {
+Word::create('Laravel Excel', function($word) {
 
     $excel->sheet('Excel sheet', function($sheet) {
 
@@ -26,7 +26,7 @@ Excel::create('Laravel Excel', function($excel) {
 
     });
 
-})->export('xls');
+})->export('doc');
 ```
 
 ---
