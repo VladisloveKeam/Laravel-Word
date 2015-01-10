@@ -41,25 +41,25 @@ Word::create('Laravel Word', function($word) {
 Require this package in your `composer.json` and update composer. This will download the package and PHPExcel of PHPOffice.
 
 ```php
-"maatwebsite/excel": "~1.2.1"
+"maveius/word": "~1.0.0"
 ```
 
 After updating composer, add the ServiceProvider to the providers array in `app/config/app.php`
 
 ```php
-'Maatwebsite\Excel\ExcelServiceProvider',
+'maveius\Word\WordServiceProvider',
 ```
 
 You can use the facade for shorter code. Add this to your aliases:
 
 ```php
-'Excel' => 'Maatwebsite\Excel\Facades\Excel',
+'Word' => 'maveius\Word\Facades\Word',
 ```
 
-The class is bound to the ioC as `excel`
+The class is bound to the ioC as `word`
 
 ```php
-$excel = App::make('excel');
+$word = App::make('word');
 ```
 
 # Documentation
