@@ -5,13 +5,13 @@
 Laravel Word brings the power of PHPOffice's PHPWord to Laravel 4 and 5 with a touch of the Laravel Magic. It includes features like: importing Word and RTF to collections, exporting models, array's and views to Word, importing batches of files and importing a file by a config file.
 
 - Import into Laravel **Collections**
-- Export **Blade views** to Excel and CSV with optional CSS styling
+- Export **Blade views** to Word and RTF with optional CSS styling
 - **Batch** imports
 - A lot of optional **config settings**
 - Easy **cell caching**
 - Chunked importer
-- ExcelFile method injections (Laravel ~5.0)
-- Editing existing Excel files
+- WordFile method injections (Laravel ~5.0)
+- Editing existing Word files
 - **Advanced import** by config files
 - and many more...
 
