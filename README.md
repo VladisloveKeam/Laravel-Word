@@ -64,13 +64,13 @@ $word = App::make('word');
 
 # Documentation
 
-The complete documentation can be found at: [http://www.maatwebsite.nl/laravel-excel/docs](http://www.maatwebsite.nl/laravel-excel/docs)
+The complete documentation can be found at: [http://www.maveius.pl/laravel-word/docs](http://www.maveius.pl/laravel-word/docs)
 
 # Contributing
 
 **ALL** bug fixes should be made to appropriate branch (e.g. `1.2` for 1.2.* bug fixes). Bug fixes should never be sent to the `master` branch.
 
-More about contributing can be found at: [http://www.maatwebsite.nl/laravel-excel/docs/getting-started#contributing](http://www.maatwebsite.nl/laravel-excel/docs/getting-started#contributing)
+More about contributing can be found at: [http://www.maveius.pl/laravel-word/docs/getting-started#contributing](http://www.maveius.pl/laravel-word/docs/getting-started#contributing)
 
 # License
 
