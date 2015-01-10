@@ -22,7 +22,7 @@ Word::create('Laravel Word', function($word) {
 
     $excel->section('Word section', function($section) {
 
-        $sheet->setOrientation('landscape');
+        $section->setOrientation('landscape');
 
     });
 
